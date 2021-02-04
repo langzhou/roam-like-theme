@@ -179,7 +179,7 @@
         border-bottom: .5px solid #D8E1E8;
         padding-bottom: 3px;
         color: #106BA3;
-        margin: 0 3px;
+        margin: 0 2px;
 
     }
 /* 块引用悬浮样式 */
@@ -226,6 +226,12 @@
     border-radius: 15px;
     border: 1px solid #182026;
   }
+
+
+.fn__flex-shrink .b3-list--background .b3-list-item--focus{
+    background-color: #141C22!important;
+    border: none;
+}
 
 /* 左侧边栏搜索 */
 .fn__flex-shrink .search__label input{
