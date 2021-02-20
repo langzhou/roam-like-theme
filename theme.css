@@ -107,6 +107,10 @@
     --b3-graph-tag-line:rgba(100, 90, 10, .5);
 
 }
+/* 数学公式 */
+.vditor-reset .language-math{
+    font-size: 95%;
+}
 
 .vditor-reset {
     font-variant-ligatures: no-common-ligatures;
@@ -190,6 +194,11 @@
         
     }
 
+/* 修改搜索结果页文件icon颜色使其更显目 todo */
+.b3-dialog__container .b3-list-item__graphic use #iconFile{
+ 
+} 
+
 /* 左侧边栏 */
 
 .fn__flex-column{
@@ -247,7 +256,12 @@
 }
 
 
-
+.backlinkList,.backlinkMList{
+    background-color: #F7F8F8;
+} 
+.block__icons--active{
+    background-color: white;
+}
 .language-graphviz polygon {
     fill: transparent;
 }
